@@ -1,0 +1,40 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "vuetest4d384863",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "api52e11b78",
+    "apiName": "api52e11b78",
+    "functionArns": [
+        {
+            "lambdaFunction": "vuetest4d384863"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-vue-test-dev-164132-authRole",
+        "unAuthRoleName": "amplify-vue-test-dev-164132-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "vuetest4d384863",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
